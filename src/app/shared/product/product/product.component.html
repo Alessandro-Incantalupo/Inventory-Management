@@ -1,0 +1,25 @@
+<div class="ui items segment ">
+
+  <div class="item">
+    <div class="image">
+      <img src="{{productCh?.imageUrl}}" alt="image path from product obj">
+    </div>
+    <div class="content">
+      <a class="header">{{productCh?.name}}</a>
+      <div class="meta">
+        <span>{{productCh?.sku}}</span>
+      </div>
+      <div class="description">
+        <p></p>
+      </div>
+      <div class="extra">
+        {{productCh?.department}}
+      </div>
+    </div>
+  </div>
+
+  <div class="price_container">
+    {{productCh?.price | currency:'USD':true}}
+  </div>
+
+</div>

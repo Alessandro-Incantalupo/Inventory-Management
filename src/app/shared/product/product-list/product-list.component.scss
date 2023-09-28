@@ -1,0 +1,11 @@
+.container {
+  min-width: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.selected {
+  border: 2px solid red;
+}

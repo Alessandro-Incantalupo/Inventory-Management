@@ -1,0 +1,12 @@
+<h2>Product list</h2>
+<article class="ui grid posts segment container">
+  <app-product *ngFor="let product of products" [productCh]="product"
+               (click)='clicked(product)'
+               [class.selected]="isSelected(product)">
+    <!-- This thing above means to add class selected if the condition is verified-->
+
+  </app-product>
+</article>
+
+
+
